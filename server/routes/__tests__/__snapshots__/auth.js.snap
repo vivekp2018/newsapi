@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`authentication :  Login should not login with a non user 1`] = `
+Object {
+  "username or password": "is invalid",
+}
+`;
+
+exports[`authentication :  Login should require  username to login 1`] = `
+Object {
+  "username": "can't be blank",
+}
+`;
+
+exports[`authentication :  Login should require password to login 1`] = `
+Object {
+  "password": "can't be blank",
+}
+`;
+
+exports[`authentication :  register should require password to register 1`] = `
+Object {
+  "password": "can't be blank",
+}
+`;
+
+exports[`authentication :  register should require unique username 1`] = `
+Object {
+  "username": "taken",
+}
+`;
+
+exports[`authentication :  register should require username to register 1`] = `
+Object {
+  "username": "can't be blank",
+}
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register should require password 1`] = `
+Object {
+  "errors": Object {
+    "password": "can't be blank",
+  },
+}
+`;
+
+exports[`Register should require password with specific length 1`] = `
+Object {
+  "errors": Object {
+    "password": "password doesn't meeet requirements",
+  },
+}
+`;
+
+exports[`Register should require unique username 1`] = `
+Object {
+  "errors": Object {
+    "username": "taken",
+  },
+}
+`;
+
+exports[`Register should require username 1`] = `
+Object {
+  "errors": Object {
+    "username": "can't be blank",
+  },
+}
+`;
+
+exports[`login should require password to login 1`] = `
+Object {
+  "errors": Object {
+    "password": "can't be blank",
+  },
+}
+`;
+
+exports[`login should require username to login 1`] = `
+Object {
+  "errors": Object {
+    "username": "can't be blank",
+  },
+}
+`;
